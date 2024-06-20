@@ -1,0 +1,42 @@
+/ng-mat-konv/node_modules
+/ng-mat-konv/.vscode
+
+/ng-mat-konv/dist
+/ng-mat-konv/tmp
+/ng-mat-konv/out-tsc
+/ng-mat-konv/bazel-out
+
+# Node
+/ng-mat-konv/node_modules
+/ng-mat-konv/npm-debug.log
+/ng-mat-konv/yarn-error.log
+
+# IDEs and editors
+/ng-mat-konv/.idea/
+/ng-mat-konv/.project
+/ng-mat-konv/.classpath
+/ng-mat-konv/.c9/
+/ng-mat-konv/*.launch
+/ng-mat-konv/.settings/
+*.sublime-workspace
+
+# Visual Studio Code
+/ng-mat-konv/.vscode/*
+/ng-mat-konv/!.vscode/settings.json
+/ng-mat-konv/!.vscode/tasks.json
+/ng-mat-konv/!.vscode/launch.json
+/ng-mat-konv/!.vscode/extensions.json
+/ng-mat-konv/.history/*
+
+# Miscellaneous
+/ng-mat-konv/.angular/cache
+/ng-mat-konv/.sass-cache/
+/ng-mat-konv/connect.lock
+/ng-mat-konv/coverage
+/ng-mat-konv/libpeerconnection.log
+/ng-mat-konv/testem.log
+/ng-mat-konv/typings
+
+# System files
+/ng-mat-konv/.DS_Store
+/ng-mat-konv/Thumbs.db

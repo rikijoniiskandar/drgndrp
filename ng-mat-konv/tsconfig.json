@@ -4,6 +4,13 @@
   "compilerOptions": {
     "outDir": "./dist/out-tsc",
     "strict": true,
+    "baseUrl": ".",
+    "paths": {
+      "@shared/layout/*": ["src/app/shared/layout/*"],
+      "@shared/enums/*": ["src/app/shared/enums/*"],
+      "@shared/layout/services/*": ["src/app/shared/layout/services/*"],
+      "@shared/layout/canvas-layout/*": ["src/app/shared/layout/canvas-layout/*"],
+    },
     "noImplicitOverride": true,
     "noPropertyAccessFromIndexSignature": true,
     "noImplicitReturns": true,

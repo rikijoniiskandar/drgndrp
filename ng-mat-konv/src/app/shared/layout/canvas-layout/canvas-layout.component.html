@@ -1,0 +1,12 @@
+<div class="canvas-layout">
+  <mat-grid-list cols="12" rowHeight="95vh">
+    <mat-grid-tile class="bg-white" [colspan]="2">
+      <app-konva-sidebar (addShape)="onAddShape($event)" />
+    </mat-grid-tile>
+    <mat-grid-tile [colspan]="8">
+      <app-whiteboard [shapes]="shapes"></app-whiteboard>
+    </mat-grid-tile>
+    <mat-grid-tile class="bg-white" [colspan]="2">right</mat-grid-tile>
+  </mat-grid-list>
+  <router-outlet></router-outlet>
+</div>

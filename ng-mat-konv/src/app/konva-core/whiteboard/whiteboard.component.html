@@ -1,0 +1,12 @@
+<section class="debug" >
+  <ko-stage #stage [config]="StageConfig$.getValue()">
+    <ko-layer #layer (click)="handleLayerClick($event)">
+        <ko-circle [config]="GetShapeConfig('circle')" (click)="handleLayerClick($event)"></ko-circle>
+        <ng-container *ngFor="let shape of shapes">
+            <ko-circle *ngIf="shape === 'circle'" [config]="GetShapeConfig(shape.type)" (click)="handleLayerClick($event)"></ko-circle>
+            <ko-ellipse *ngIf="shape === 'ellipse'" [config]="GetShapeConfig(shape)" ></ko-ellipse>
+        </ng-container>
+        <!-- <ko-rect *ngFor="let shape of shapes" [config]="GetShapeConfig(shape)" (click)="handleShapeClick($event, shape)"></ko-rect> -->
+    </ko-layer>
+  </ko-stage>
+</section>

@@ -1,0 +1,8 @@
+<aside>
+  <h3>Shapes</h3>
+  <div class="grid-menu">
+    @for (shape of shapes; track $index) {
+    <button (click)="onAddShape(shape)">Add {{ shape }}</button>
+    }
+  </div>
+</aside>
